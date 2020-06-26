@@ -14,11 +14,11 @@ list-style: none;
 <h2>Enter data into product table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
+<li>Size:</li><li><input type="text" name="size" /></li>
 <li>Product ID:</li><li><input type="text" name="productid" /></li>
 <li>Product Name:</li><li><input type="text" name="productname" /></li>
 <li>Basic Price:</li><li><input type="text" name="basicprice" /></li>
 <li>Residual:</li><li><input type="text" name="residual" /></li>
-<li>Size:</li><li><input type="text" name="size" /></li>
 
 <li><input type="submit" /></li>
 </form>
@@ -55,8 +55,8 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO student(productid, productname, basicprice, residual, size)"
-        . " VALUES('$_POST[productid]','$_POST[productname]','$_POST[basicprice]','$_POST[residual]','$_POST[size]')";
+$sql = "INSERT INTO student(size, productid, productname, basicprice, residual)"
+        . " VALUES('$_POST[size]','$_POST[productid]','$_POST[productname]','$_POST[basicprice]','$_POST[residual]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[productid])) {

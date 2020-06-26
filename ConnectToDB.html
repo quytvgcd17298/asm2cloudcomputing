@@ -6,7 +6,7 @@
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "ATN Toy products";
 ?>
 
 <?php
@@ -29,7 +29,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM student ORDER BY stuid";
+$sql = "SELECT * FROM product ORDER BY productid";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);

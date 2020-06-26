@@ -147,11 +147,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 								</ul>						<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
 
 						</li>
-						<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
                                                 <li><a href="InsertData.php" class="hyper"><span>Insert Product</span></a></li>
                                                 <li><a href="ConnectToDB.php" class="hyper"><span>Data Inserted</span></a></li>
-					        <li><a href="UpdateData.php" class="hyper"><span>Update Data</span></a></li>
-
 
 					</ul>
 				</div>

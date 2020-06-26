@@ -6,7 +6,7 @@
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "ATN Website was built by Tran Van Quy ";
 ?>
 
 <?php
